@@ -1,0 +1,19 @@
+source "http://ruby.taobao.org"
+#source "https://rubygems.org"
+
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'em-synchrony', require: ['em-synchrony', 'em-synchrony/mysql2', 'em-synchrony/activerecord']
+gem 'sinatra-synchrony', require: 'sinatra/synchrony'
+
+gem 'activerecord', require: 'active_record'
+
+gem 'mysql2'
+
+# To use ActiveModel has_secure_password
+# gem 'bcrypt-ruby', '~> 3.0.0'
+
+gem 'thin'
+
+gem 'require_all'
+gem 'json', '~> 1.7.7'
